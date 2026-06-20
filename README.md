@@ -1,10 +1,14 @@
 # Knight Bite Website Clone (AI-Assisted Version)
 
+## Live Demo
+
+🔗 https://harshavardhan3535.github.io/knight-bite-ai-version/
+
 ## Overview
 
 This repository contains an AI-assisted implementation of the Knight Bite website clone.
 
-I had previously built the same project manually as part of my frontend learning journey using HTML and CSS. After completing the project on my own, I recreated and improved it using AI assistance to compare different approaches to UI development.
+I had previously built the same project manually as part of my frontend learning journey using HTML,CSS and JAVASCRIPT. After completing the project on my own, I recreated and improved it using AI assistance to compare different approaches to UI development.
 
 ## Why This Repository Exists
 
