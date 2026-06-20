@@ -56,7 +56,7 @@ Both repositories are maintained to document my learning journey and growth as a
 ## Related Repository
 
 Manual Version:
-[Link to your original Knight Bite repository]
+[https://github.com/Harshavardhan3535/knight-bite-ai-version]
 
 AI-Assisted Version:
 This repository
