@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-🔗 https://harshavardhan3535.github.io/knight-bite-ai-version/
+[🌐 Live Demo](https://harshavardhan3535.github.io/knight-bite-ai-version/)
 
 ## Overview
 
