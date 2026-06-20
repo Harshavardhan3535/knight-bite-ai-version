@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about Knight Bite — the late night cloud kitchen that started in Mangalore and now serves Bengaluru, Manipal, and beyond.">
+  <title>About Us | Knight Bite</title>
+  <link rel="stylesheet" href="./Knight-Bite.css">
+  <script src="./Knight-Bite.js"></script>
+</head>
+<body>
+
+  <!-- ── NAVBAR ─────────────────────────────────── -->
+  <header>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="./Knight-Bite.html">
+          <img src="./Knight-Bite/brand-logo.svg" alt="Knight Bite Logo"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+          <span class="logo-text" style="display:none;">KNIGHT BITE</span>
+        </a>
+      </div>
+      <ul class="navbar-links">
+        <li><a href="./Knight-Bite.html">Home</a></li>
+        <li><a href="./about.html" class="active">About</a></li>
+        <li><a href="./menu.html">Menu</a></li>
+        <li><a href="./Franchise.html">Franchise</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <ul class="mobile-nav" id="mobileNav">
+      <li><a href="./Knight-Bite.html">Home</a></li>
+      <li><a href="./about.html" class="active">About</a></li>
+      <li><a href="./menu.html">Menu</a></li>
+      <li><a href="./Franchise.html">Franchise</a></li>
+    </ul>
+  </header>
+
+  <!-- ── ABOUT HERO ─────────────────────────────── -->
+  <section class="about-hero">
+    <div class="about-hero-bg"></div>
+    <div class="about-hero-content">
+      <span class="section-eyebrow">Our Story</span>
+      <h1>We Feed the<br><span style="color:var(--accent)">Night Owls</span></h1>
+      <p>
+        Knight Bite is a cloud kitchen built for the nocturnals — giving equal emphasis
+        on food, technology, and logistics so that no one goes hungry after midnight.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── ORIGIN STORY ───────────────────────────── -->
+  <section class="section">
+    <div class="about-grid">
+      <div class="about-text">
+        <span class="section-eyebrow">How It Started</span>
+        <h2>Born from a Simple Hunger</h2>
+        <p>
+          Knight Bite started with the idea to serve all the hungry nocturnals who find
+          it really difficult to order late-night munchies. KB brought together late-night
+          eaters and helped them order delicious meals at their convenience via the
+          Knight Bite app and phone call.
+        </p>
+        <p>
+          Knight Bite is one such concept which was highly successful in adapting to
+          the emerging market. Biters (our customers) accepted and loved the KB app
+          that made the ordering process so much easier.
+        </p>
+        <p>
+          In just two weeks after the app's release, it was trending on top food apps
+          and was downloaded by more than <strong style="color:var(--accent)">5,000 users</strong>
+          across Mangalore and Manipal.
+        </p>
+      </div>
+      <div class="about-img-wrap">
+        <img src="./Knight-Bite/food-strip1.avif" alt="Knight Bite food selection"
+             onerror="this.src=''; this.alt=''; this.style.background='var(--bg-card)';">
+      </div>
+    </div>
+  </section>
+
+  <!-- ── VISION ─────────────────────────────────── -->
+  <section class="section section-alt">
+    <div class="about-grid" style="direction: rtl;">
+      <div class="about-text" style="direction: ltr;">
+        <span class="section-eyebrow">Our Vision</span>
+        <h2>Smiles Across Every City</h2>
+        <p>
+          Going forward, our aim is to help and bring smiles to many more faces
+          and cover many more cities across India and around the world.
+        </p>
+        <p>
+          We believe great food at any hour is a right, not a privilege. Knight Bite
+          is committed to making late-night delivery accessible, fast, and consistently
+          delicious — wherever you are.
+        </p>
+        <a href="./menu.html" class="btn btn-primary" style="margin-top:24px; display:inline-flex;">
+          Explore Our Menu &rarr;
+        </a>
+      </div>
+      <div class="about-img-wrap" style="direction: ltr;">
+        <img src="./Knight-Bite/inner-img1.png" alt="Knight Bite vision"
+             onerror="this.src=''; this.style.background='var(--bg-card)'; this.style.minHeight='300px';">
+      </div>
+    </div>
+  </section>
+
+  <!-- ── LOCATIONS ──────────────────────────────── -->
+  <section class="section">
+    <div class="section-header">
+      <span class="section-eyebrow">Where We Are</span>
+      <h2 class="section-title">Our Locations</h2>
+      <p class="section-desc">Serving four cities — and growing. Every outlet open 7 PM to 4 AM.</p>
+    </div>
+    <div class="locations-grid">
+      <div class="location-card">
+        <h3>Bengaluru</h3>
+        <p>Serving the tech capital's night owls.</p>
+        <div class="hours">
+          <span class="hours-dot"></span>
+          7:00 PM – 4:00 AM
+        </div>
+      </div>
+      <div class="location-card">
+        <h3>Mangalore</h3>
+        <p>Where Knight Bite was born.</p>
+        <div class="hours">
+          <span class="hours-dot"></span>
+          7:00 PM – 4:00 AM
+        </div>
+      </div>
+      <div class="location-card">
+        <h3>Manipal</h3>
+        <p>Fuelling student life after midnight.</p>
+        <div class="hours">
+          <span class="hours-dot"></span>
+          7:00 PM – 4:00 AM
+        </div>
+      </div>
+      <div class="location-card">
+        <h3>Udupi</h3>
+        <p>New city, same late-night promise.</p>
+        <div class="hours">
+          <span class="hours-dot"></span>
+          7:00 PM – 4:00 AM
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOLLOW US ──────────────────────────────── -->
+  <section class="section section-alt" style="text-align:center;">
+    <div class="section-header" style="margin-bottom:32px;">
+      <span class="section-eyebrow">Stay Connected</span>
+      <h2 class="section-title">Follow Us</h2>
+    </div>
+    <div class="social-row" style="justify-content:center;">
+      <a href="https://www.instagram.com/knight_bite/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <img src="./Knight-Bite/Insta logo.png" alt="Instagram">
+      </a>
+      <a href="https://m.facebook.com/knightbiteIndia/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <img src="./Knight-Bite/Fb logo.png" alt="Facebook">
+      </a>
+      <a href="https://mobile.twitter.com/knight_bite" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+        <img src="./Knight-Bite/twitter.png" alt="Twitter">
+      </a>
+      <a href="https://lu.linkedin.com/company/knightbite" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <img src="./Knight-Bite/linkedin logo.png" alt="LinkedIn">
+      </a>
+      <a href="https://www.youtube.com/channel/UCbUM8v6bBtX8mcVFazJ9IQw" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+        <img src="./Knight-Bite/Youtube1 logo.png" alt="YouTube">
+      </a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="./Knight-Bite/brand-logo.svg" alt="Knight Bite" style="height:36px;"
+             onerror="this.outerHTML='<span style=\'font-family:Bebas Neue,cursive;font-size:1.6rem;color:var(--accent);letter-spacing:3px;\'>KNIGHT BITE</span>'">
+        <p>Bengaluru's cloud kitchen for night owls. Order via the KB app or call us — delivering until 4 AM.</p>
+        <div class="social-row">
+          <a href="https://www.instagram.com/knight_bite/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img src="./Knight-Bite/Insta logo.png" alt="Instagram">
+          </a>
+          <a href="https://m.facebook.com/knightbiteIndia/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <img src="./Knight-Bite/Fb logo.png" alt="Facebook">
+          </a>
+          <a href="https://mobile.twitter.com/knight_bite" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <img src="./Knight-Bite/twitter.png" alt="Twitter">
+          </a>
+          <a href="https://www.youtube.com/channel/UCbUM8v6bBtX8mcVFazJ9IQw" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <img src="./Knight-Bite/Youtube1 logo.png" alt="YouTube">
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="./Knight-Bite.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./menu.html">Menu</a></li>
+          <li><a href="./Franchise.html">Franchise</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Locations</h4>
+        <ul>
+          <li><a href="#">Bengaluru</a></li>
+          <li><a href="#">Mangalore</a></li>
+          <li><a href="#">Manipal</a></li>
+          <li><a href="#">Udupi</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item">
+          <span>✉</span>
+          <span>knightbiteixe@gmail.com</span>
+        </div>
+        <div class="footer-contact-item">
+          <span>📞</span>
+          <span>+91 80 4710 6107<br>
+          <small style="font-size:0.78rem;">7 PM – 4 AM daily</small></span>
+        </div>
+        <div class="footer-contact-item">
+          <span>📍</span>
+          <span>Head Office,<br>Mangaluru – 575001</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> <span>Knight Bite</span>. All rights reserved.</p>
+      <p>Delivering happiness, one night at a time.</p>
+    </div>
+  </footer>
+
+  <div class="copyright-bar">
+    <p>© Copyright <span id="year2"></span>. Knight-Bite. All Rights Reserved.</p>
+  </div>
+
+  <script>
+    const y = new Date().getFullYear();
+    document.getElementById('year').textContent = y;
+    document.getElementById('year2').textContent = y;
+
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobileNav');
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileNav.classList.toggle('open');
+      hamburger.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', isOpen);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Knight Bite Menu — Burgers, fries, wraps, main course, drinks and desserts delivered late night until 4 AM.">
+  <title>Menu | Knight Bite</title>
+  <link rel="stylesheet" href="./Knight-Bite.css">
+  <script src="./Knight-Bite.js"></script>
+</head>
+<body>
+
+  <!-- ── NAVBAR ─────────────────────────────────── -->
+  <header>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="./Knight-Bite.html">
+          <img src="./Knight-Bite/brand-logo.svg" alt="Knight Bite Logo"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+          <span class="logo-text" style="display:none;">KNIGHT BITE</span>
+        </a>
+      </div>
+      <ul class="navbar-links">
+        <li><a href="./Knight-Bite.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./menu.html" class="active">Menu</a></li>
+        <li><a href="./Franchise.html">Franchise</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <ul class="mobile-nav" id="mobileNav">
+      <li><a href="./Knight-Bite.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./menu.html" class="active">Menu</a></li>
+      <li><a href="./Franchise.html">Franchise</a></li>
+    </ul>
+  </header>
+
+  <!-- ── MENU HERO ──────────────────────────────── -->
+  <section class="menu-hero">
+    <div class="menu-hero-bg"></div>
+    <div class="menu-hero-content">
+      <span class="section-eyebrow">What We Serve</span>
+      <h1>Our Menu</h1>
+      <p>Fresh, hot, and ready — every night from 7 PM to 4 AM.</p>
+    </div>
+  </section>
+
+  <!-- ── MENU CATEGORIES ────────────────────────── -->
+  <section class="section">
+    <div class="section-header">
+      <span class="section-eyebrow">Browse by Category</span>
+      <h2 class="section-title">Pick Your Craving</h2>
+      <p class="section-desc">Six categories. Endless combinations. All delivered in 30–40 minutes.</p>
+    </div>
+    <div class="menu-grid">
+
+      <div class="menu-card">
+        <div class="menu-card-icon">
+          <img src="./Knight-Bite/icons8-burger-50.png" alt="Burgers">
+        </div>
+        <h2>Burgers</h2>
+        <p>Classic, crispy, loaded — our burgers are the midnight legend.</p>
+        <span class="menu-card-arrow">View Items &rarr;</span>
+      </div>
+
+      <div class="menu-card">
+        <div class="menu-card-icon">
+          <img src="./Knight-Bite/icons8-french-fries-50.png" alt="Fries & Starters">
+        </div>
+        <h2>Fries / Starters</h2>
+        <p>Golden fries, loaded bites, and starters to kick things off right.</p>
+        <span class="menu-card-arrow">View Items &rarr;</span>
+      </div>
+
+      <div class="menu-card">
+        <div class="menu-card-icon">
+          <img src="./Knight-Bite/icons8-food-bar-50.png" alt="Main Course">
+        </div>
+        <h2>Main Course</h2>
+        <p>Hearty, filling meals for when you need something serious.</p>
+        <span class="menu-card-arrow">View Items &rarr;</span>
+      </div>
+
+      <div class="menu-card">
+        <div class="menu-card-icon">
+          <img src="./Knight-Bite/icons8-street-food-50.png" alt="Drinks">
+        </div>
+        <h2>Drinks</h2>
+        <p>Shakes, sodas, and cold sips to go with every bite.</p>
+        <span class="menu-card-arrow">View Items &rarr;</span>
+      </div>
+
+      <div class="menu-card">
+        <div class="menu-card-icon">
+          <img src="./Knight-Bite/icons8-wrap-50.png" alt="Wraps">
+        </div>
+        <h2>Wraps</h2>
+        <p>Packed wraps with bold flavours — perfect for late night on the go.</p>
+        <span class="menu-card-arrow">View Items &rarr;</span>
+      </div>
+
+      <div class="menu-card">
+        <div class="menu-card-icon">
+          <img src="./Knight-Bite/icons8-dessert-50.png" alt="Desserts">
+        </div>
+        <h2>Desserts</h2>
+        <p>Sweet endings — because every great night deserves one.</p>
+        <span class="menu-card-arrow">View Items &rarr;</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── ORDER CTA ───────────────────────────────── -->
+  <section class="section section-alt" style="text-align:center;">
+    <span class="section-eyebrow">Ready to Order?</span>
+    <h2 class="section-title" style="margin-bottom:16px;">Hungry Right Now?</h2>
+    <p style="color:var(--text-muted); margin-bottom:40px; max-width:480px; margin-left:auto; margin-right:auto;">
+      Order on the Knight Bite app or give us a call — we'll have your food at your door in 30–40 minutes.
+    </p>
+    <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+      <a href="https://apps.apple.com/in/app/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+        Download on App Store
+      </a>
+      <a href="https://play.google.com/store/apps/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+        Get it on Google Play
+      </a>
+    </div>
+    <p style="margin-top:24px; color:var(--text-muted); font-size:0.88rem;">
+      Or call us at <a href="tel:+918047106107" style="color:var(--accent); font-weight:600;">+91 80 4710 6107</a>
+    </p>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="./Knight-Bite/brand-logo.svg" alt="Knight Bite" style="height:36px;"
+             onerror="this.outerHTML='<span style=\'font-family:Bebas Neue,cursive;font-size:1.6rem;color:var(--accent);letter-spacing:3px;\'>KNIGHT BITE</span>'">
+        <p>Bengaluru's cloud kitchen for night owls. Order via the KB app or call us — delivering until 4 AM.</p>
+        <div class="social-row">
+          <a href="https://www.instagram.com/knight_bite/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img src="./Knight-Bite/Insta logo.png" alt="Instagram">
+          </a>
+          <a href="https://m.facebook.com/knightbiteIndia/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <img src="./Knight-Bite/Fb logo.png" alt="Facebook">
+          </a>
+          <a href="https://mobile.twitter.com/knight_bite" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <img src="./Knight-Bite/twitter.png" alt="Twitter">
+          </a>
+          <a href="https://www.youtube.com/channel/UCbUM8v6bBtX8mcVFazJ9IQw" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <img src="./Knight-Bite/Youtube1 logo.png" alt="YouTube">
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="./Knight-Bite.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./menu.html">Menu</a></li>
+          <li><a href="./Franchise.html">Franchise</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Locations</h4>
+        <ul>
+          <li><a href="#">Bengaluru</a></li>
+          <li><a href="#">Mangalore</a></li>
+          <li><a href="#">Manipal</a></li>
+          <li><a href="#">Udupi</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item">
+          <span>✉</span>
+          <span>knightbiteixe@gmail.com</span>
+        </div>
+        <div class="footer-contact-item">
+          <span>📞</span>
+          <span>+91 80 4710 6107<br>
+          <small style="font-size:0.78rem;">7 PM – 4 AM daily</small></span>
+        </div>
+        <div class="footer-contact-item">
+          <span>📍</span>
+          <span>Head Office,<br>Mangaluru – 575001</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> <span>Knight Bite</span>. All rights reserved.</p>
+      <p>Delivering happiness, one night at a time.</p>
+    </div>
+  </footer>
+
+  <div class="copyright-bar">
+    <p>© Copyright <span id="year2"></span>. Knight-Bite. All Rights Reserved.</p>
+  </div>
+
+  <script>
+    const y = new Date().getFullYear();
+    document.getElementById('year').textContent = y;
+    document.getElementById('year2').textContent = y;
+
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobileNav');
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileNav.classList.toggle('open');
+      hamburger.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', isOpen);
+    });
+  </script>
+</body>
+</html>
