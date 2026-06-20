@@ -49,8 +49,9 @@ Both repositories are maintained to document my learning journey and growth as a
 
 ## Technologies Used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
+- JAVASCRIPT
 
 ## Related Repository
 
